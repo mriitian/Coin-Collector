@@ -4,6 +4,8 @@ _Author: Vedant Parkhe_
 
 _Technologies: Unity (Client), Node.js (Authoritative Server), WebSockets_
 
+_Designed for Krafton Assignment_
+
 ### 🎮 Overview
 
 This project implements a real-time multiplayer Coin Collector game with an authoritative server, custom network code, and 200ms simulated latency.
