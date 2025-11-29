@@ -1,0 +1,69 @@
+# =============================
+# UNITY PROJECT
+# =============================
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]in/
+[Mm]emoryCaptures/
+[Ss]ysinfo/
+
+# Unity auto-generated files
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.suo
+*.userprefs
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+
+
+# Unity crash / logs
+UnityCrashHandler*
+UnityPlayer.dll
+
+# GI / Lighting cache
+/[Aa]ssets/[Ll]ightingData.asset
+/[Aa]ssets/[Ll]ightmap*
+/[Aa]ssets/Lightmap-*.exr
+/[Aa]ssets/ReflectionProbe-*.exr
+
+# =============================
+# SERVER (NODE.JS)
+# =============================
+
+/Server/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env
+
+# =============================
+# OS SPECIFIC
+# =============================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# =============================
+# VS CODE
+# =============================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
