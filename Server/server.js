@@ -5,7 +5,7 @@ const TICK_RATE = 30;
 const MAP_SIZE = 20;
 const MOVE_SPEED = 5;
 const COIN_SPAWN_INTERVAL = 5000;
-const NETWORK_DELAY = 100;
+const NETWORK_DELAY = 200;
 
 const MAX_PLAYERS = 2;
 

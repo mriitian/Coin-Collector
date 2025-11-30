@@ -37,7 +37,7 @@ All state syncing is fully custom-built.
 - **Security**
 - **Reconnect Handling**
 
-## 🖥 Running the Server
+### 🖥 Running the Server
 
 1. Requires Node.js
 
@@ -50,3 +50,28 @@ node server.js
 2. Run the Client
    - Use Unity Play Mode + Build
    - or Use 2 Unity Builds
+
+### Extra details
+
+1. Unity Assets Used
+
+To improve visual clarity (instead of plain cubes/spheres), I used:
+
+- A simple tank model (player avatar)
+
+- A basic coin model
+
+- A flat ground plane
+
+These were sourced from free Unity Asset Store packages.
+Only cosmetic visuals were enhanced — the underlying game logic remains strictly simple and compliant with the assignment.
+
+2. Assumptions Made
+
+- Two-player cap
+- - The assignment requires two clients, so the server enforces MAX_PLAYERS = 2.
+  - The session begins only after both players mark themselves as ready.
+
+- Color / Name Assignment
+  - Player names are randomly and uniquely chosen from a predefined list (Alpha, Bravo, Charlie, Delta).
+  - Colors are also assigned uniquely if possible for clarity.
